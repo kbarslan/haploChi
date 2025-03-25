@@ -42,7 +42,7 @@ python haplochi.py LRmapping sorg_49_HR.fa ds.list
 python haplochi.py SRmapping sorg_49_HR.fa s.list
 python haplochi.py process sorg_49_HR.fa sorg_49
 
----
+```
 
 ## 🧬 Pipeline Overview
 The pipeline has **two main stages**:
