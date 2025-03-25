@@ -49,8 +49,8 @@ The pipeline has **two main stages**:
 ## 🧪 Example Outputs
 
 <div align="center">
-  <img src="docs/vertigo.png" alt="Vertigo (Vicia faba L.) – Synthetic Hybrid" width="45%"/>
-  <img src="docs/sorg_49.png" alt="Sorghum49 (Sorghum bicolor) – In Silico Hybrid" width="45%"/>
+  <img src="docs/vertigo.png" alt="Vertigo (Vicia faba L.) – Synthetic Hybrid" width="50%"/>
+  <img src="docs/sorg_49.png" alt="Sorghum49 (Sorghum bicolor) – In Silico Hybrid" width="50%"/>
 </div>
 
 <p align="center">
