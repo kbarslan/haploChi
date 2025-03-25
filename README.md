@@ -27,6 +27,22 @@ Genome assemblies of polyploids and heterozygotes often suffer from **haplotype 
 This allows users to identify suspect regions and quantify phasing quality.
 
 ---
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/yourusername/haplochi.git
+cd haplochi
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Run pipeline steps
+python haplochi.py split ds.list
+python haplochi.py LRmapping sorg_49_HR.fa ds.list
+python haplochi.py SRmapping sorg_49_HR.fa s.list
+python haplochi.py process sorg_49_HR.fa sorg_49
+
+---
 
 ## 🧬 Pipeline Overview
 The pipeline has **two main stages**:
@@ -65,17 +81,3 @@ The pipeline has **two main stages**:
 
 ---
 
-## 🚀 Quick Start
-
-```bash
-git clone https://github.com/yourusername/haplochi.git
-cd haplochi
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Run pipeline steps
-python haplochi.py split ds.list
-python haplochi.py LRmapping sorg_49_HR.fa ds.list
-python haplochi.py SRmapping sorg_49_HR.fa s.list
-python haplochi.py process sorg_49_HR.fa sorg_49
