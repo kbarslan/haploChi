@@ -48,27 +48,22 @@ The pipeline has **two main stages**:
 
 ## 🧪 Example Outputs
 
-### 🔬 Vertigo (Vicia faba L.) – Synthetic Hybrid
+<div align="center">
+  <img src="docs/vertigo.png" alt="Vertigo (Vicia faba L.) – Synthetic Hybrid" width="45%"/>
+  <img src="docs/sorg_49.png" alt="Sorghum49 (Sorghum bicolor) – In Silico Hybrid" width="45%"/>
+</div>
 
 <p align="center">
-  <img src="docs/vertigo.png" alt="Vertigo Example" width="600"/>
+  <sub>
+    🔴 Reads map mainly to Haplotype 1 &nbsp; | &nbsp;
+    🔵 Reads map mainly to Haplotype 2
+  </sub>
 </p>
-
-- 🔴 Red: Reads map primarily to Haplotype 1  
-- 🔵 Blue: Reads map primarily to Haplotype 2
-
----
-
-### 🌾 Sorghum49 (Sorghum bicolor) – In Silico Hybrid
 
 <p align="center">
-  <img src="docs/sorg_49.png" alt="Sorghum Example" width="600"/>
+  <b>Left:</b> Vertigo (Vicia faba) — synthetic hybrid <br/>
+  <b>Right:</b> Sorghum49 — in silico hybrid
 </p>
-
-- 🔴 Red: Reads map primarily to Haplotype 1  
-- 🔵 Blue: Reads map primarily to Haplotype 2
-
-These plots provide a chromosome-level view of haplotype bias, switch regions, and assembly quality.
 
 ---
 
