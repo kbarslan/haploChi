@@ -29,11 +29,6 @@ This allows users to identify suspect regions and quantify phasing quality.
 ---
 
 ## 🧬 Pipeline Overview
-
-<p align="center">
-  <img src="docs/haplochi_pipeline_alg.png" alt="Pipeline Algorithm" width="700"/>
-</p>
-
 The pipeline has **two main stages**:
 
 1. **Long Read Mapping & Chimera Detection**  
@@ -43,14 +38,17 @@ The pipeline has **two main stages**:
 2. **Short Read-Style Remapping & H1H2 Scoring**  
    Long reads are split into 200bp chunks and mapped back to both haplotypes. The **H1H2 score** quantifies whether reads support one or both haplotypes:
    > `H1H2 Score = # reads with ≥5 subreads mapped to both haplotypes / total long reads`
-
+   
+<p align="center">
+  <img src="docs/haplochi_pipeline_alg.png" alt="Pipeline Algorithm" width="700"/>
+</p>
 ---
 
 ## 🧪 Example Outputs
 
 <div align="center">
-  <img src="docs/vertigo.png" alt="Vertigo (Vicia faba L.) – Synthetic Hybrid" width="50%"/>
-  <img src="docs/sorg_49.png" alt="Sorghum49 (Sorghum bicolor) – In Silico Hybrid" width="50%"/>
+  <img src="docs/vertigo.png" alt="Vertigo (Vicia faba L.) – Synthetic Hybrid" width="47%"/>
+  <img src="docs/sorg_49.png" alt="Sorghum49 (Sorghum bicolor) – In Silico Hybrid" width="47%"/>
 </div>
 
 <p align="center">
