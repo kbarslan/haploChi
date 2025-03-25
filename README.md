@@ -58,7 +58,7 @@ The pipeline has **two main stages**:
 <p align="center">
   <img src="docs/haplochi_pipeline_alg.png" alt="Pipeline Algorithm" width="700"/>
 </p>
----
+
 
 ## 🧪 Example Outputs
 
